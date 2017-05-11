@@ -1,0 +1,175 @@
+body{
+     margin: 0;
+    padding: 0;
+    font-family: 'Vollkorn', serif;   
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1D2B3D;
+    text-align: right;
+}
+p{
+ font-family: "Arial Verdana";
+ font-size: 20px;
+ color: white;   
+}
+
+li {
+    float: right;
+}
+.logo{
+    background-color: red;
+    border-radius: 100px;
+    position: relative;
+}
+.logoText{
+    position: absolute;
+
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: right;
+    padding: 20px 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+li a:hover {
+    background-color: #111;
+}
+div.relative {
+    position: relative;
+} 
+div.absolute {
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    width: 400px;
+    height: 100px;
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.btn{
+    background-color: black;
+    border-radius: 0px;
+    border:1px solid black;
+    padding: 15px 25px;
+    color: white;
+}
+
+.section2{
+    background:white;
+    padding: 80px 150px 150px 150px;
+    text-align: center;
+}
+.section2 h1{
+    padding-bottom:10px; 
+}
+
+
+div.gallery {
+    margin-left: 50px;
+    float: left;
+    width: 280px;
+}
+
+div.gallery:hover {
+    width: 300px;
+}
+
+div.gallery img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+div.desc p {
+    color: black;
+    font-size: 18px;
+}
+.section3{
+    margin-top: 250px;
+    background-color:#E5E4E2;
+    padding: 40px 50px;
+    text-align: center;
+}
+.section3 h1{
+    padding-bottom:10px; 
+}
+.section3 img{
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+}
+.article3{
+    width:700px; 
+    margin-left: 270px;
+}
+.article3 p{
+    color: black;
+}
+
+.section4{
+    margin-top: 50px;
+    padding: 40px 50px;
+    text-align: center;
+}
+.section4 h1{
+    padding-bottom:10px; 
+}
+.article4{
+    width:700px; 
+    margin-left: 270px;
+}
+.article4 p{
+    color: black;
+}
+input[type=text] {
+    width:70%;
+    padding: 8px 20px;
+    margin: 8px 0;
+    border:2px solid black;
+    box-sizing: border-box;
+    border-radius: 4px 0px 0px 4px;
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 14px 40px;
+}
+.article5 p{
+    float: right;
+    margin-left: 15px;
+    line-height: 15px;
+    padding-bottom: 15px;
+    font-size: 15px;
+    color:lightgrey;
+}
+.article5{
+   line-height: 15px;
+   padding-bottom: 35px;
+   margin-right:50px 
+}
+.imgBottom{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    margin-left: 80px;
+}
